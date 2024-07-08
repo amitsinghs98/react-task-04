@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 50px; /* Adds minimal upper margin */
+}
+
+.table-container {
+  width: 80%; /* Adjust this percentage to make the table smaller or larger */
+  max-width: 800px; /* Limits the maximum width of the table */
+  margin: 0 auto; /* Centers the table container */
+}
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead {
+  background-color: #bbb;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  color: black;
+}
+
+tr {
+  border-bottom: 1px solid #bbb;
+}
